@@ -4,9 +4,9 @@
 The Ashen Pages is a thematic blog where users can submit and view poetic posts. It features dynamic theme switching and local storage-based post management.
 
 ## Screenshots
-![Home Page](assets/images/AshenHome.png)
+![Home Page](Ashen%20Pages/assets/images/AshenHome.png)
 ##
-![Blog Submission](assets/images/AshenBlog.jpg)
+![Blog Submission](Ashen%20Pages/assets/images/AshenBlog.jpg)
 
 ## Features
 - Blog Post Submission: Users can submit posts via a form.
