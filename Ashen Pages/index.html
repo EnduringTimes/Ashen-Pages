@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ashen Pages</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    
+    <!-- Header container for buttons and title -->
+    <header>
+
+
+<h1>The Ashen Pages</h1>
+
+<label class="theme-switcher">
+    <input type="checkbox" id="theme-toggle" class="theme-toggle">
+    <span class="slider"></span>
+</label>
+
+
+    </header>
+
+    <section class="form-container">
+
+        <!-- Form for blog post content and submit button -->
+    
+    <form id="blogForm" action="">
+        
+        
+        <label for="userName">What are you called?</label>
+        <input id="userName" type="text" name="userName" placeholder="    BlackFire">
+        
+        
+        <label for="postTitle">Title your truth:</label>
+        <input id="postTitle" type="text" name="postTitle" placeholder="    All is cinders and Ash">
+        
+        
+        <label for="postContent"> Speak:</label>
+        <textarea name="postContent" id="postContent" cols="50" rows="10" placeholder=
+       "  Beneath the moon's scorn, all dreams dashed,
+  Where hope once bloomed, now only ash.
+  In silent whispers, the shadows clash,
+  All is cinders, and all is ash.
+        
+  No stars to wish upon, their light cashed,
+  In the heart of ruin, our spirits thrash.
+  Yet, from despair, a lone spark flashed,
+  In a world of cinders, and worlds of ash."></textarea>
+        
+        <button id="submitButton">Let the world know</button>
+        
+        
+    </form>
+
+    <!-- Modal to let users know all fields must have content -->
+
+    <div id="validationModal">
+        
+    <div class="modalInnerBox">
+
+            <p id="modalText"></p>
+            <button id="okayButton">Okay</button>
+        </div>
+    </div>
+    
+
+</section>
+
+<footer>Created with <span>HATRED</span> by EnduredTimes</footer>
+    
+    
+    <script src="assets/javascript/index.js"></script>
+    <script src="assets/javascript/button.js"></script>
+</body>
+</html>
